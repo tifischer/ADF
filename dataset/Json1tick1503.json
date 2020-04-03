@@ -1,0 +1,127 @@
+{
+	"name": "Json1tick1503",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "tick1503"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"start-time-unixtimestamp-dot-ms": {
+					"type": "string"
+				},
+				"cs-ip": {
+					"type": "string"
+				},
+				"cs-method": {
+					"type": "string"
+				},
+				"ssl-version": {
+					"type": "string"
+				},
+				"cs-uri": {
+					"type": "string"
+				},
+				"sc-status": {
+					"type": "string"
+				},
+				"sc-content-bytes": {
+					"type": "string"
+				},
+				"sc-total-bytes": {
+					"type": "string"
+				},
+				"s-object-size": {
+					"type": "string"
+				},
+				"s-uncompressed-size": {
+					"type": "string"
+				},
+				"http-overhead-bytes": {
+					"type": "string"
+				},
+				"cs(Referer)": {
+					"type": "string"
+				},
+				"cs(User-Agent)": {
+					"type": "string"
+				},
+				"cs(Cookie)": {
+					"type": "string"
+				},
+				"cs(Host)": {
+					"type": "string"
+				},
+				"sc(Content-Type)": {
+					"type": "string"
+				},
+				"x-time-ssloverhead-ms": {
+					"type": "string"
+				},
+				"x-time-turnaround-ms": {
+					"type": "string"
+				},
+				"x-time-transfer-ms": {
+					"type": "string"
+				},
+				"x-request-id": {
+					"type": "string"
+				},
+				"x-max-age": {
+					"type": "string"
+				},
+				"x-cache-status": {
+					"type": "string"
+				},
+				"x-cache-refresh-source": {
+					"type": "string"
+				},
+				"x-last-byte-served-flag": {
+					"type": "string"
+				},
+				"x-no-store-flag": {
+					"type": "string"
+				},
+				"edgeip": {
+					"type": "string"
+				},
+				"raw": {
+					"type": "string"
+				},
+				"directives": {
+					"type": "object",
+					"properties": {
+						"Version": {
+							"type": "string"
+						},
+						"Fields": {
+							"type": "string"
+						}
+					}
+				},
+				"start-time": {
+					"type": "string"
+				},
+				"start-time-ms": {
+					"type": "string"
+				},
+				"account-prefix": {
+					"type": "string"
+				},
+				"cp-code": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
